@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_machine"
+            android:icon="@drawable/laptop"
+            android:title="Liste des machines" />
+        <item
+            android:id="@+id/nav_salle"
+            android:icon="@drawable/classroom"
+            android:title="Liste des salles" />
+        <item android:title="Statistiques">
+            <menu>
+                <item
+                    android:id="@+id/nav_graph1"
+                    android:icon="@drawable/chart"
+                    android:title="Par salle" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
